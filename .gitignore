@@ -1,0 +1,29 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Jupyter and R session files
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary backup used while importing the nested package repository
+.python_scmega_git_backup/
